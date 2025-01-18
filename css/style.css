@@ -700,7 +700,7 @@ a:focus {
 .footer_bg {
   background-image: url(../images/footer-bg.png);
   background-size: cover;
-  padding-top: 280px;
+  padding-top: 180px;
   margin-top: -150px;
 }
 
