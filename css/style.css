@@ -455,7 +455,12 @@ a:focus {
     background-size: 1980% !important; /* Aumenta el tamaño de la imagen al 150% */
     background-position:center;
   }
-
+  @media (max-width: 480px) {
+    .service_section {
+      background-size: 2250% !important; /* Cambia a "contain" si quieres asegurar que toda la imagen se vea */
+    }
+  }
+  
   .highlight {
     font-size: 18px;
     margin-left: 0;
